@@ -1,0 +1,92 @@
+*{
+    background-color: rgb(202, 231, 148);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    word-spacing: 2px;
+}
+.createnote{
+    background-color: aquamarine;
+    position: absolute;
+    height: 10vh;
+    width: 50vw;
+    left: 25vw;
+    top: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 1px 1px 2px black,2px 2px 4px black, 1px 1px 25px blue, 1px 1px 5px darkblue;
+}
+.allnote{
+    position: absolute;
+    background-color: rgb(196, 224, 208);
+    width: 100vw;
+    min-height: 87vh;
+    top: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.writtingpage{
+    background-color: rgb(208, 173, 240);
+    position: relative;
+    width: 90%;
+    height: 80vh;
+    top: 15vh;
+    left: 5vw;
+    padding: 5%;
+    display: none;
+}
+.note{
+    background-color: #ffffcc;
+    padding: 5px;
+    margin: 1vw;
+    border: 3px solid black;
+    padding-top: 30px;
+    width: 23vw;
+}
+.deli{
+    position: absolute;
+    background-color: rgb(250, 131, 131);
+    top: 0%;
+    right: 0%;
+}
+.edit{
+    position: absolute;
+    background-color: rgb(140, 243, 140);
+    top: 0%;
+    left: 0%;
+}
+
+
+@media only screen and (max-width:1370px) and (min-width:1000px) {
+    .note{
+        width: 31.33vw;
+        padding-top: 50px;
+    }
+    *{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media only screen and (max-width:1000px) and (min-width:500px) {
+    .note{
+        width: 48vw;
+        padding-top: 50px;
+    }
+    *{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .note{
+        width: 98vw;
+    }
+}
