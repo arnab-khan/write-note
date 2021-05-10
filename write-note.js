@@ -37,7 +37,7 @@ function notecli() {
     // start create delit button 
     deli=document.createElement("button");
     deli.className="deli";
-    deli.innerHTML="DELET";
+    deli.innerHTML="DELETE";
     this.appendChild(deli);
     // end create of delit buttom 
 
